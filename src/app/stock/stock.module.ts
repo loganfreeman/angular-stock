@@ -10,8 +10,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-
-
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     StockSearchComponent,
@@ -24,6 +23,7 @@ import {MatInputModule} from '@angular/material/input';
     MatSliderModule,
     MatAutocompleteModule,
     MatFormFieldModule,
+    MatCardModule,
     MatInputModule,
     ReactiveFormsModule,
   ],
